@@ -67,7 +67,7 @@ body {
  .web-color {
     color: var(--iris-color);
 
-    font-family: Raleway, sans-serif;
+    
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -77,6 +77,14 @@ body {
  .logo {
     text-decoration: none;
     text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+ }
+
+ .link-studio-color {
+    color: var(--title-text-color);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.33;
  }
 
 .header-color {
@@ -149,8 +157,17 @@ body {
 
 .footer-design-color {
     color: var(--cloud-color);
+
+    font-size: 18px;
+    line-height: 1.17;
 }
 
+.footer-web-color {
+    color: var(--iris-color);
+
+    font-size: 18px;
+    line-height: 1.17;
+}
 
 /* portfolio */
 .button-portf-color {
@@ -160,7 +177,7 @@ body {
 
 .btn-text-prtf-color {
     color: var(--portf-buttom-text-color);
-    
+
     font-family: Roboto, sans-serif;
     font-size: 16px;
 }
